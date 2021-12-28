@@ -1,0 +1,24 @@
+$darkGray: #333;
+$lightGray: #EDEDED;
+$gray: #777;
+
+.form{
+	background-color: $lightGray;
+	padding: 30px 50px;
+	border-radius: 0px 10px 10px 10px;
+}
+
+.offcanvas-body, .offcanvas-header{
+	background-color: $darkGray;
+}
+.react-tabs__tab-list{
+	margin-bottom: 0;
+	border-bottom: 0px;
+	border-radius: 5px;
+}
+.react-tabs__tab{
+	background-color: $gray;
+}
+.react-tabs__tab--selected{
+	background-color: $lightGray;
+}
